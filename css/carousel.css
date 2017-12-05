@@ -1,0 +1,65 @@
+.carousel-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-scroller {
+  position: relative;
+  font-size: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  -webkit-text-size-adjust: none;
+          text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.carousel-scroller .swiper-panel {
+  float: left;
+}
+
+.carousel-tabs-menu {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.carousel-tabs-menu .carousel-tabs-item {
+  -webkit-flex: 1;
+          flex: 1 1;
+  text-align: center;
+  line-height: 2.2;
+  bordr-bottom: 2px solid transparent;
+}
+
+.carousel-tabs-menu .active {
+  color: #CF121B;
+  border-bottom: 2px solid #CF121B;
+}
+
+.carousel-nav {
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+}
+
+.carousel-nav > a {
+  display: inline-block;
+  background-color: white;
+  cursor: pointer;
+  width: 6px;
+  height: 6px;
+  border-radius: 5px;
+  border: 1px solid #808080;
+  -webkit-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.carousel-nav > a.active {
+  background-color: #ffd800;
+  width: 10px;
+}
+
+/*# sourceMappingURL=maps/carousel.css.map */
